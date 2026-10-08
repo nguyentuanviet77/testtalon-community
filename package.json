@@ -1,0 +1,35 @@
+{
+  "name": "testtalon-community",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TestTalon Community Web GUI automation and shared test-data helpers",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint:tests": "node config/community/lint.cjs",
+    "test:unit": "node --test packages/community/tests/*.test.cjs",
+    "test:list": "playwright test --list --project=dev",
+    "test:smoke": "playwright test --project=dev --retries=0",
+    "test": "npm run build && npm run test:unit && npm run test:smoke",
+    "showreport": "playwright show-report logs/html-report"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "1.52.0",
+    "@faker-js/faker": "10.6.0",
+    "csv-parse": "7.0.3",
+    "exceljs": "3.4.0",
+    "pdfjs-dist-es5": "2.13.216",
+    "playwright": "1.63.0",
+    "winston": "3.18.3",
+    "winston-daily-rotate-file": "5.0.0",
+    "strip-ansi": "6.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0",
+    "@types/node": "24.10.1",
+    "typescript": "6.0.2"
+  }
+}

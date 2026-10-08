@@ -1,0 +1,198 @@
+TESTTALON
+FREE / COMMUNITY SOURCE CODE LICENSE
+Version 4.0
+Effective Date: October 6, 2026
+Copyright © 2025–2026 Nguyen Tuan Viet. All rights reserved.
+
+PLAIN-ENGLISH SUMMARY
+
+This summary is provided for convenience only. The full license terms below are legally controlling if there is any conflict.
+
+YOU MAY:
+
+• Use TestTalon Community for personal learning, skills development, and education.
+• Evaluate TestTalon before purchasing a Commercial License.
+• Build demonstrations, portfolio projects, and private proofs of concept.
+• Perform reasonable internal company or organizational evaluation.
+• Privately modify and configure the Community source code for permitted Free Edition purposes.
+• Keep permitted Community modifications in private repositories.
+• Use included Community CI/CD examples and templates for permitted evaluation, learning, and proof-of-concept purposes.
+
+THE MAIN RESTRICTION:
+
+TestTalon Community is proprietary source-available software, not open-source software.
+
+A Commercial License is required when TestTalon becomes an ongoing operational automation foundation for business use, production or pre-production testing, recurring business regression testing, ongoing business CI/CD, or regular commercial delivery.
+
+You may not redistribute, resell, sublicense, publish, give away, white-label, repackage, or distribute TestTalon Community — original or modified — as a reusable automation framework, automation platform, starter kit, template, boilerplate, developer toolkit, source-code package, or competing reusable product.
+
+1. PRODUCT AND LICENSE
+
+This Free / Community Source Code License ("License") is provided by Nguyen Tuan Viet ("Licensor") for the Free / Community Edition of the TestTalon ("Free Edition").
+
+The Free Edition is proprietary source-available software. It is not an MIT license and is not an open-source license.
+
+The Free Edition is licensed, not sold.
+
+2. FREE EDITION FEATURES
+
+The Free Edition may include:
+
+• Web GUI automation
+• Basic Playwright HTML reporting
+• Basic framework configuration
+• Examples and sample Web GUI tests
+• GitHub Actions CI/CD templates
+• Advanced test-data generation
+• Quick Start / basic documentation
+
+The files and features actually delivered with a particular Free Edition release determine what is included.
+
+Commercial-only capabilities may include API testing, Mobile testing, Database testing, Security testing, ReportPortal, Allure reporting, automated email notifications, feature flags, advanced enterprise configuration, full documentation, commercial support, and other Commercial Edition capabilities.
+
+3. OWNERSHIP
+
+Licensor retains ownership and intellectual-property rights in the original Free Edition, including its proprietary source code, reusable architecture, framework components, documentation, examples, and product materials.
+
+Users retain ownership of independently created application-specific tests, business logic, test data, configurations, and other original materials that do not constitute the proprietary Platform itself.
+
+Modification of the Free Edition does not transfer ownership of the original Platform to the user.
+
+4. FREE LICENSE GRANT
+
+Subject to compliance with this License, Licensor grants users a worldwide, non-exclusive, royalty-free, limited license to access, execute, inspect, and privately modify the Free Edition for:
+
+• personal learning;
+• skills development;
+• evaluation;
+• demonstrations;
+• portfolio work;
+• private proof-of-concept projects;
+• personal non-commercial projects; and
+• reasonable internal company or organizational evaluation.
+
+No fee is required for these permitted Free Edition uses.
+
+5. COMPANY AND TEAM EVALUATION
+
+A company or organization may use the Free Edition for reasonable internal evaluation and proof-of-concept purposes before deciding whether to purchase the Commercial Edition.
+
+During evaluation, team members may privately access and evaluate the Free Edition when reasonably necessary for the evaluation.
+
+The Free Edition may be stored in a private repository used solely for that evaluation.
+
+Evaluation does not grant a permanent commercial production license.
+
+When the Platform becomes an ongoing automation foundation for business operations, production or pre-production testing, recurring business regression testing, or regular commercial use, an appropriate Commercial License is required.
+
+6. COMMERCIAL / PRODUCTION USE
+
+The Free Edition is intended to make evaluation easy, not to replace the Commercial Edition.
+
+A Commercial License is required for ongoing operational business use, including regular use as a company's automation platform, recurring production/pre-production automation, ongoing business CI/CD regression execution, or regular commercial delivery where the Platform functions as the operational automation foundation.
+
+For Commercial licensing, contact:
+autoframework.support@gmail.com
+
+7. CORE REDISTRIBUTION AND COMPETING-PRODUCT RESTRICTION
+
+This is the primary restriction of the Free License.
+
+Without Licensor's prior written permission, users may NOT:
+
+a. redistribute, resell, sublicense, publish, give away, rent, lease, or otherwise provide the Free Edition itself as a reusable source-code product;
+
+b. publish substantial proprietary Platform source code to a public repository, package registry, marketplace, website, file-sharing service, course repository, or other location where third parties can obtain and reuse it as a framework;
+
+c. repackage, rename, rebrand, white-label, or distribute the Free Edition — original or modified — as another automation framework, automation platform, starter kit, template, boilerplate, developer toolkit, source-code package, or substantially similar reusable product;
+
+d. modify, refactor, extend, translate, port, or otherwise create a derivative and then sell, publish, give away, or distribute that derivative when its primary purpose is to function as a competing reusable automation framework or platform;
+
+e. include substantial proprietary Platform source code as a downloadable framework, source-code bundle, template, course asset, or product whose primary value is the reusable Platform itself.
+
+These restrictions apply whether the redistributed or competing version is free or paid.
+
+These restrictions do not prevent users from creating their own application-specific tests, examples, demonstrations, reports, screenshots, or portfolio materials, provided substantial proprietary Platform source code is not publicly distributed.
+
+8. PRIVATE MODIFICATIONS
+
+Users may privately modify, refactor, configure, and experiment with the Free Edition for permitted Free Edition purposes.
+
+A private modification containing substantial proprietary Platform source code remains subject to this License.
+
+9. PRIVATE REPOSITORIES
+
+Private repositories are permitted for personal evaluation, proof-of-concept work, and reasonable company/team evaluation.
+
+Users are responsible for taking reasonable measures to prevent unauthorized public distribution of proprietary Platform source code.
+
+10. NO RUNTIME ACTIVATION
+
+Version 4.0 of the Free Edition does not require mandatory online activation or a continuous runtime license-server connection.
+
+Licensor may include product/version/license information for identification purposes, but such information does not restrict normal permitted execution.
+
+11. UPDATES AND SUPPORT
+
+Free Edition updates may be provided at Licensor's discretion.
+
+There is no guaranteed update schedule, update period, support response time, or entitlement to future Commercial Edition features.
+
+Quick Start documentation, examples, or voluntary community guidance may be provided without creating a commercial support obligation.
+
+12. THIRD-PARTY SOFTWARE AND SERVICES
+
+Third-party libraries, tools, browsers, services, CI/CD platforms, and other components remain governed by their respective licenses and terms.
+
+Users are responsible for obtaining any required third-party accounts, subscriptions, infrastructure, permissions, and licenses.
+
+13. NO GUARANTEE OF UNIVERSAL COMPATIBILITY
+
+The Free Edition is a configurable automation foundation. Applications, browsers, operating systems, CI/CD environments, networks, and infrastructure differ.
+
+Configuration, dependencies, adaptation, or project-specific implementation may be required.
+
+Licensor does not guarantee compatibility with every application, platform, version, service, or environment.
+
+14. WARRANTY DISCLAIMER
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE FREE EDITION IS PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, OR ERROR-FREE OPERATION.
+
+NOTHING IN THIS LICENSE EXCLUDES A WARRANTY OR RIGHT THAT CANNOT LAWFULLY BE EXCLUDED.
+
+15. LIMITATION OF LIABILITY
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR WILL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, OR LOSS OF PROFITS, REVENUE, DATA, BUSINESS, GOODWILL, OR BUSINESS OPPORTUNITY ARISING FROM OR RELATED TO THE FREE EDITION.
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, LICENSOR'S TOTAL AGGREGATE LIABILITY ARISING FROM THE FREE EDITION WILL NOT EXCEED USD $10.
+
+NOTHING LIMITS LIABILITY THAT CANNOT LAWFULLY BE LIMITED.
+
+16. TERMINATION
+
+This License may terminate if a user materially breaches its terms and fails to cure a curable breach within a reasonable period after notice.
+
+A material violation of Section 7 concerning redistribution, resale, publication, sublicensing, or repackaging may result in termination of rights granted under this License.
+
+17. UPGRADING TO COMMERCIAL
+
+Users who need ongoing commercial or production business use may purchase the Commercial Edition under the Commercial Source Code License — Enterprise Automation Platform.
+
+Commercial licensing is designed to permit broad professional use, source-code modification, client work, private repositories, and unlimited permitted automation execution within the purchased license scope.
+
+18. GOVERNING LAW
+
+This License is governed by the laws of the Socialist Republic of Vietnam, without regard to conflict-of-law principles, except where mandatory applicable law requires otherwise.
+
+Nothing in this License is intended to override mandatory consumer or statutory rights that legally apply and cannot be waived.
+
+19. CONTACT
+
+Licensor: Nguyen Tuan Viet
+Product: TestTalon
+License Type: Free / Community Source Code License
+Support / Licensing Email: autoframework.support@gmail.com
+Product Page: [FINAL GUMROAD PRODUCT URL]
+
+For Commercial licensing or questions about unusual use cases, contact:
+autoframework.support@gmail.com
