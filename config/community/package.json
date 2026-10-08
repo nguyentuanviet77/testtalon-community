@@ -20,7 +20,7 @@
     "@dotenvx/dotenvx": "1.52.0",
     "@faker-js/faker": "10.6.0",
     "csv-parse": "7.0.3",
-    "exceljs": "3.4.0",
+    "exceljs": "3.10.0",
     "pdfjs-dist-es5": "2.13.216",
     "playwright": "1.63.0",
     "winston": "3.18.3",
