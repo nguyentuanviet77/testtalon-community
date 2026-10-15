@@ -4,7 +4,7 @@ import { BrowserContext, expect, Locator, Page } from '@playwright/test';
 import { Workbook } from 'exceljs';
 import * as pdfjslib from 'pdfjs-dist-es5';
 import logger from '../../../config/logger';
-import { globalVariables } from '../../../config/community/globalVariables';
+import { guiConfig as globalVariables } from '../config/guiConfig';
 
 type SpinnerLocator = Locator | string;
 

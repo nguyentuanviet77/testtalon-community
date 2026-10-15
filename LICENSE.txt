@@ -92,7 +92,7 @@ The Free Edition is intended to make evaluation easy, not to replace the Commerc
 A Commercial License is required for ongoing operational business use, including regular use as a company's automation platform, recurring production/pre-production automation, ongoing business CI/CD regression execution, or regular commercial delivery where the Platform functions as the operational automation foundation.
 
 For Commercial licensing, contact:
-autoframework.support@gmail.com
+support@testtalon.com
 
 7. CORE REDISTRIBUTION AND COMPETING-PRODUCT RESTRICTION
 
@@ -191,8 +191,7 @@ Nothing in this License is intended to override mandatory consumer or statutory 
 Licensor: Nguyen Tuan Viet
 Product: TestTalon
 License Type: Free / Community Source Code License
-Support / Licensing Email: autoframework.support@gmail.com
-Product Page: [FINAL GUMROAD PRODUCT URL]
+Support / Licensing Email: support@testtalon.com
 
 For Commercial licensing or questions about unusual use cases, contact:
-autoframework.support@gmail.com
+support@testtalon.com

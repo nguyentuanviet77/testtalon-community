@@ -1,0 +1,10 @@
+{
+  "pagePlaywright": {
+    "getStarted": {
+      "accessibleName": "Get started"
+    },
+    "installation": {
+      "accessibleName": "Installation"
+    }
+  }
+}

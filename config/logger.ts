@@ -75,9 +75,29 @@ const cleanArgs = (args: unknown[]) => args.map(arg =>
   typeof arg === 'string' ? stripAnsi(arg) : arg
 );
 
+// Customer-facing error text: name and message only (no stack), with obvious credentials masked.
+const sensitivePatterns: Array<[RegExp, string]> = [
+  [/([a-z][a-z0-9+.-]*:\/\/)[^\s/@:]+:[^\s/@]+@/gi, '$1***@'],
+  [/\b(authorization|api[_-]?key|api[_-]?token|access[_-]?token|token|password|passwd|secret)\b(\s*[:=]\s*)(?:(?:Bearer|Basic)\s+)?[^\s,;'"]+/gi, '$1$2***'],
+];
+
+const redactSensitive = (text: string): string =>
+  sensitivePatterns.reduce((value, [pattern, replacement]) => value.replace(pattern, replacement), text);
+
+const isErrorLike = (value: unknown): value is Error =>
+  value instanceof Error || (typeof value === 'object' && value !== null
+    && typeof (value as { message?: unknown }).message === 'string' && typeof (value as { stack?: unknown }).stack === 'string');
+
+/** Error properties are not enumerable, so JSON.stringify(error) is "{}"; report name and message instead. */
+const describeError = (error: Error): string =>
+  redactSensitive(`${error.name && error.name !== 'Error' ? `${error.name}: ` : ''}${error.message}`);
+
 const formatArgs = (args: unknown[]) => {
   const cleaned = cleanArgs(args);
   return cleaned.map(arg => {
+    if (isErrorLike(arg)) {
+      return describeError(arg);
+    }
     if (typeof arg === 'object') {
       try {
         return JSON.stringify(arg);
@@ -122,4 +142,4 @@ if (process.env.NODE_ENV !== 'production') {
 }
 
 export default logger;
-export { originalConsole, formatArgs };
+export { originalConsole, formatArgs, describeError, redactSensitive };

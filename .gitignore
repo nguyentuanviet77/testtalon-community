@@ -1,26 +1,30 @@
-# Generated dependency, build and test artifacts
 node_modules/
 dist/
-build/
-coverage/
+logs/
+.cache/
 test-results/
 playwright-report/
 blob-report/
-logs/
+playwright/.auth/
+# Community profiles (config/.env.*) are committed with the source; only the private key file is ignored.
+.env.keys
+**/.env.keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.agent/
+.codex/
+
+# Generated and authentication state, kept from the 2.0.0 repository
+build/
+coverage/
 html-report/
-.cache/
 .playwright-mcp/
 *.tsbuildinfo
 *.log
-
-# Local profiles, credentials and authentication state
-.env
-.env.*
-!.env.example
-!.env.*.example
 /.npmrc
-/.codex/config.toml
-playwright/.auth/
 .auth/
 auth-state/
 cookies.json

@@ -1,9 +1,18 @@
 name: Community Web validation
-on: [push, pull_request]
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+
 permissions:
   contents: read
+
 jobs:
   community:
+    name: Offline Web tests
+    timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
@@ -18,4 +27,47 @@ jobs:
       - run: npm run lint:tests
       - run: npm run test:unit
       - run: npm run test:list
-      - run: npm run test:smoke
+      - run: npm run test:web
+      - name: Summarize the result
+        if: ${{ !cancelled() }}
+        run: |
+          test -f logs/json-report.json || exit 0
+          node -e "const s = require('./logs/json-report.json').stats; console.log('Offline Web tests: ' + s.expected + ' passed, ' + s.unexpected + ' failed, ' + s.skipped + ' skipped, ' + s.flaky + ' flaky')" >> "$GITHUB_STEP_SUMMARY"
+      - name: Upload Playwright artifacts
+        uses: actions/upload-artifact@v7
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-artifacts
+          path: |
+            logs/html-report/
+            logs/json-report.json
+            logs/test-results/
+          if-no-files-found: ignore
+          retention-days: 14
+
+  sample-projects:
+    name: Sample projects (public demo sites)
+    timeout-minutes: 30
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '24'
+          cache: npm
+      - run: npm ci --ignore-scripts
+      - run: npx playwright install --with-deps chromium firefox
+      - name: Run staging-chromium and qa-firefox
+        # Each project reads GUI_BASE_URL from its committed demo profile (config/.env.staging, config/.env.qa).
+        run: npx playwright test --project=staging-chromium --project=qa-firefox --retries=1
+      - name: Upload Playwright artifacts
+        uses: actions/upload-artifact@v7
+        if: ${{ !cancelled() }}
+        with:
+          name: playwright-artifacts-sample-projects
+          path: |
+            logs/html-report/
+            logs/json-report.json
+            logs/test-results/
+          if-no-files-found: ignore
+          retention-days: 14
