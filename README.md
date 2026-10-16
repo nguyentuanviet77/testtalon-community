@@ -23,6 +23,8 @@ For a one-page summary of what Community V1 can do, see [Features & capabilities
 
 ## Documentation
 
+[Installation, IDE Setup & Getting Started Guide](docs/shared/TestTalon-Getting-Started.md)
+
 Step-by-step guides are in the [Community documentation index](core/docs/community/README.md), with a recommended learning sequence:
 
 1. [Getting started](core/docs/community/setup.md)
