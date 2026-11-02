@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>TestTalon Community</title></head>
+<body>
+  <label for="message">Message</label><input id="message">
+  <button id="submit" type="button">Show message</button>
+  <output id="output"></output>
+  <script>
+    document.querySelector('#submit').addEventListener('click', () => {
+      document.querySelector('#output').textContent = document.querySelector('#message').value;
+    });
+  </script>
+</body>
+</html>

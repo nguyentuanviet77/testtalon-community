@@ -1,0 +1,63 @@
+{
+  "pageCart": {
+    "network": {
+      "cartLoadPath": "/viewcart",
+      "addToCartPath": "/addtocart",
+      "checkoutClearPath": "/deletecart"
+    },
+    "checkout": {
+      "modal": "#orderModal",
+      "total": "#totalm",
+      "purchaseButton": "button[onclick='purchaseOrder()']",
+      "closeButton": ".modal-footer button[data-dismiss='modal']"
+    },
+    "confirmation": {
+      "locator": ".sweet-alert.visible",
+      "heading": "h2",
+      "details": "p",
+      "okButton": "button.confirm"
+    },
+    "alerts": {
+      "ok_Button": "button[type=\"submit\"].confirm"
+    },
+    "placeOrderForms": {
+      "locator": "//div[@class='modal-content']",
+      "totalPrice": "@id='totalm'",
+      "nameInput": "#name",
+      "countryInput": "#country",
+      "cityInput": "#city",
+      "cardInput": "#card",
+      "monthInput": "#month",
+      "yearInput": "#year",
+      "closeButton": ".btn.btn-secondary",
+      "purchaseButton": ".btn.btn-primary"
+    },
+    "productTable": {
+      "locator": "#tbodyid",
+      "rows": "tr.success",
+      "rowByCartId": "#tbodyid tr:has(a[onclick=\"deleteItem('{cartId}')\"])",
+      "nameCell": "td:nth-child(2)",
+      "priceCell": "td:nth-child(3)",
+      "imageElement": "td img",
+      "deleteLink": "td a[onclick^='deleteItem(']",
+      "productItem": {
+        "locator": "//tr[@class='success']",
+        "image": "//td[1]/img",
+        "name": "//td[2]",
+        "price": "//td[3]",
+        "deleteButton": "//td[4]/a"
+      }
+    },
+    "cartSummary": {
+      "totalPrice": "#totalp",
+      "placeOrderButton": ".btn.btn-success"
+    },
+    "purchaseConfirmation": {
+      "locator": "//div[@class='sweet-alert showSweetAlert visible']",
+      "image": "/div[@class='sa-icon sa-success animate']",
+      "confirmationText": "/h2",
+      "detailsText": "/p",
+      "okButton": "//button[@class='confirm btn btn-lg btn-primary']"
+    }
+  }
+}

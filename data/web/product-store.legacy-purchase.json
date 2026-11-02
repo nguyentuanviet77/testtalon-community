@@ -1,0 +1,7 @@
+{
+  "name": "Samsung galaxy s6",
+  "price": "$360",
+  "description": "The Samsung Galaxy S6 is powered by 1.5GHz octa-core Samsung Exynos 7420 processor and it comes with 3GB of RAM. The phone packs 32GB of internal storage cannot be expanded.",
+  "imageUrl": "imgs/galaxy_s6.jpg",
+  "link": "prod.html?idp_=1"
+}

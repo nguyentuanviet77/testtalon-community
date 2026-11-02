@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Frame content</title></head>
+<body>
+  <h2 id="frame-heading">Inside the frame</h2>
+  <label for="frame-name">Name</label><input id="frame-name">
+  <button id="frame-button" type="button">Greet from the frame</button>
+  <p id="frame-output"></p>
+  <script>
+    document.querySelector('#frame-button').addEventListener('click', () => {
+      document.querySelector('#frame-output').textContent = 'Hello, ' + document.querySelector('#frame-name').value + ' (from the frame)';
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "playwrightDev": {
+    "mainNavigation": { "accessibleName": "Main" },
+    "docsLink": { "accessibleName": "Docs" },
+    "docsSidebar": { "accessibleName": "Docs sidebar" },
+    "migrationCategory": { "accessibleName": "Migration" },
+    "migrationPuppeteerLink": { "accessibleName": "Migrating from Puppeteer" },
+    "npmTab": { "accessibleName": "npm" },
+    "yarnTab": { "accessibleName": "yarn" },
+    "pnpmTab": { "accessibleName": "pnpm" }
+  }
+}

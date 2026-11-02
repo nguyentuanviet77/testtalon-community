@@ -1,0 +1,24 @@
+{
+  "widgets": {
+    "accordionTrigger1": "#accordion-trigger-1",
+    "accordionTrigger2": "#accordion-trigger-2",
+    "accordionPanel1": "#accordion-panel-1",
+    "accordionPanel2": "#accordion-panel-2",
+    "tabOverview": "#tab-overview",
+    "tabDetails": "#tab-details",
+    "panelOverview": "#panel-overview",
+    "panelDetails": "#panel-details",
+    "slider": "#volume",
+    "sliderValue": "#volume-value",
+    "startUploadButton": "#start-upload",
+    "uploadProgress": "#upload-progress",
+    "uploadStatus": "#upload-status",
+    "dateInput": "#start-date",
+    "dateResult": "#date-result",
+    "countryInput": "#country",
+    "countryList": "#country-list",
+    "countryOption": "#country-list [role=option]",
+    "countryResult": "#country-result",
+    "japanOptionText": "Japan"
+  }
+}

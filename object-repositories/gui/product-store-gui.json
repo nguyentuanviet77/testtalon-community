@@ -1,0 +1,61 @@
+{
+  "pageIndex": {
+    "navigation": {
+      "locator": "#navbarExample",
+      "mobileMenuToggle": "button[data-target='#navbarExample']",
+      "homeLink": "#navbarExample > ul > li.nav-item.active > a",
+      "contactLink": "#navbarExample > ul > li:nth-child(2) > a",
+      "aboutusLink": "#navbarExample > ul > li:nth-child(3) > a",
+      "cartLink": "#cartur",
+      "loginLink": "#login2",
+      "signupLink": "#signin2",
+      "logoutLink": "#logout2",
+      "welcomeUser": "#nameofuser"
+    },
+    "pagination": {
+      "locator": "#frm > ul",
+      "prevButton": "#prev2",
+      "nextButton": "#next2"
+    },
+    "categories": {
+      "phonesText": "Phones",
+      "locator": "//div[@class='list-group']",
+      "phonesLink": "a[onclick=\"byCat('phone')\"]",
+      "catItem": "//div[@class='list-group-item']"
+    },
+    "productTable": {
+      "locator": "//div[@id='tbodyid']",
+      "productCard": {
+        "locator": "//div[@class='card h-100']",
+        "titleLink": "h4.card-title a",
+        "priceText": "h5",
+        "imageElement": "img",
+        "image": ".//img",
+        "title": "//h4[@class='card-title']/a",
+        "price": "//h5",
+        "description": "//p[@class='card-text']",
+        "link": "//h4[@class='card-title']/a"
+      }
+    },
+    "signupForm": {
+      "signupButtonText": "Sign up",
+      "locator": "#signInModal",
+      "usernameInput": "#sign-username",
+      "passwordInput": "#sign-password",
+      "signupButton": "#div.modal-footer > button.btn.btn-primary",
+      "modelHeader": "div.modal-header",
+      "modelBody": "div.modal-body",
+      "modelFooter": "div.modal-footer"
+    },
+    "loginForm": {
+      "locator": "#logInModal",
+      "usernameInput": "#loginusername",
+      "passwordInput": "#loginpassword",
+      "loginButton": "#div.modal-footer > button.btn.btn-primary",
+      "browserLoginButton": "#logInModal .modal-footer button[onclick='logIn()']",
+      "modalHeader": "div.modal-header",
+      "modalBody": "div.modal-body",
+      "modalFooter": "div.modal-footer"
+    }
+  }
+}

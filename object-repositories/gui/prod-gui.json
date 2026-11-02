@@ -1,0 +1,13 @@
+{
+  "pageProduct": {
+    "locator": "//div[contains(@class,'product-content product-wrap clearfix product-deatil')]",
+    "name": "//h2[@class='name']",
+    "price": "//h3[@class='price-container']",
+    "description": "//div[@class='description description-tabs']",
+    "addToCartButton": "//a[contains(@class,'btn btn-success btn-lg')]",
+    "productImage": "//img[@class='product-image']",
+    "detailsImage": "#imgp img",
+    "descriptionText": "#more-information p",
+    "link": "//a[contains(@href,'prod.html?idp_=')]"
+  }
+}

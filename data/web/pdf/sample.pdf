@@ -1,0 +1,516 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 99 >>
+stream
+BT
+/F1 20 Tf
+72 720 Td
+(TestTalon Community sample PDF) Tj
+0 -40 Td
+(Text extraction works.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type3 /Name /F1 /FontBBox [0 0 600 700] /FontMatrix [0.001 0 0 0.001 0 0] /CharProcs << /g32 8 0 R /g46 9 0 R /g67 10 0 R /g68 11 0 R /g70 12 0 R /g80 13 0 R /g84 14 0 R /g97 15 0 R /g99 16 0 R /g101 17 0 R /g105 18 0 R /g107 19 0 R /g108 20 0 R /g109 21 0 R /g110 22 0 R /g111 23 0 R /g112 24 0 R /g114 25 0 R /g115 26 0 R /g116 27 0 R /g117 28 0 R /g119 29 0 R /g120 30 0 R /g121 31 0 R >> /Encoding << /Type /Encoding /Differences [32 /g32 /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /g46 /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /g67 /g68 /.notdef /g70 /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /g80 /.notdef /.notdef /.notdef /g84 /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /.notdef /g97 /.notdef /g99 /.notdef /g101 /.notdef /.notdef /.notdef /g105 /.notdef /g107 /g108 /g109 /g110 /g111 /g112 /.notdef /g114 /g115 /g116 /g117 /.notdef /g119 /g120 /g121] >> /FirstChar 32 /LastChar 121 /Widths [600 0 0 0 0 0 0 0 0 0 0 0 0 0 600 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 600 600 0 600 0 0 0 0 0 0 0 0 0 600 0 0 0 600 0 0 0 0 0 0 0 0 0 0 0 0 600 0 600 0 600 0 0 0 600 0 600 600 600 600 600 600 0 600 600 600 600 0 600 600 600] /ToUnicode 7 0 R >>
+endobj
+6 0 obj
+<< /Title (TestTalon Community sample PDF) /Author (TestTalon) /Creator (TestTalon) /Producer (TestTalon sample generator) /CreationDate (D:20261015000000Z) >>
+endobj
+7 0 obj
+<< /Length 520 >>
+stream
+/CIDInit /ProcSet findresource begin 12 dict begin begincmap
+/CMapName /TT def /CMapType 2 def
+1 begincodespacerange <00> <FF> endcodespacerange
+24 beginbfchar
+<20> <0020>
+<2E> <002E>
+<43> <0043>
+<44> <0044>
+<46> <0046>
+<50> <0050>
+<54> <0054>
+<61> <0061>
+<63> <0063>
+<65> <0065>
+<69> <0069>
+<6B> <006B>
+<6C> <006C>
+<6D> <006D>
+<6E> <006E>
+<6F> <006F>
+<70> <0070>
+<72> <0072>
+<73> <0073>
+<74> <0074>
+<75> <0075>
+<77> <0077>
+<78> <0078>
+<79> <0079>
+endbfchar
+endcmap CMapName currentdict /CMap defineresource pop end end
+endstream
+endobj
+8 0 obj
+<< /Length 21 >>
+stream
+600 0 0 0 500 700 d1
+endstream
+endobj
+9 0 obj
+<< /Length 40 >>
+stream
+600 0 0 0 500 700 d1
+200 0 100 100 re f
+endstream
+endobj
+10 0 obj
+<< /Length 278 >>
+stream
+600 0 0 0 500 700 d1
+100 600 100 100 re f
+200 600 100 100 re f
+300 600 100 100 re f
+0 500 100 100 re f
+400 500 100 100 re f
+0 400 100 100 re f
+0 300 100 100 re f
+0 200 100 100 re f
+0 100 100 100 re f
+400 100 100 100 re f
+100 0 100 100 re f
+200 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+11 0 obj
+<< /Length 377 >>
+stream
+600 0 0 0 500 700 d1
+0 600 100 100 re f
+100 600 100 100 re f
+200 600 100 100 re f
+300 600 100 100 re f
+0 500 100 100 re f
+400 500 100 100 re f
+0 400 100 100 re f
+400 400 100 100 re f
+0 300 100 100 re f
+400 300 100 100 re f
+0 200 100 100 re f
+400 200 100 100 re f
+0 100 100 100 re f
+400 100 100 100 re f
+0 0 100 100 re f
+100 0 100 100 re f
+200 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+12 0 obj
+<< /Length 299 >>
+stream
+600 0 0 0 500 700 d1
+0 600 100 100 re f
+100 600 100 100 re f
+200 600 100 100 re f
+300 600 100 100 re f
+400 600 100 100 re f
+0 500 100 100 re f
+0 400 100 100 re f
+0 300 100 100 re f
+100 300 100 100 re f
+200 300 100 100 re f
+300 300 100 100 re f
+0 200 100 100 re f
+0 100 100 100 re f
+0 0 100 100 re f
+endstream
+endobj
+13 0 obj
+<< /Length 320 >>
+stream
+600 0 0 0 500 700 d1
+0 600 100 100 re f
+100 600 100 100 re f
+200 600 100 100 re f
+300 600 100 100 re f
+0 500 100 100 re f
+400 500 100 100 re f
+0 400 100 100 re f
+400 400 100 100 re f
+0 300 100 100 re f
+100 300 100 100 re f
+200 300 100 100 re f
+300 300 100 100 re f
+0 200 100 100 re f
+0 100 100 100 re f
+0 0 100 100 re f
+endstream
+endobj
+14 0 obj
+<< /Length 248 >>
+stream
+600 0 0 0 500 700 d1
+0 600 100 100 re f
+100 600 100 100 re f
+200 600 100 100 re f
+300 600 100 100 re f
+400 600 100 100 re f
+200 500 100 100 re f
+200 400 100 100 re f
+200 300 100 100 re f
+200 200 100 100 re f
+200 100 100 100 re f
+200 0 100 100 re f
+endstream
+endobj
+15 0 obj
+<< /Length 305 >>
+stream
+600 0 0 0 500 700 d1
+100 400 100 100 re f
+200 400 100 100 re f
+300 400 100 100 re f
+400 300 100 100 re f
+100 200 100 100 re f
+200 200 100 100 re f
+300 200 100 100 re f
+400 200 100 100 re f
+0 100 100 100 re f
+400 100 100 100 re f
+100 0 100 100 re f
+200 0 100 100 re f
+300 0 100 100 re f
+400 0 100 100 re f
+endstream
+endobj
+16 0 obj
+<< /Length 219 >>
+stream
+600 0 0 0 500 700 d1
+100 400 100 100 re f
+200 400 100 100 re f
+300 400 100 100 re f
+0 300 100 100 re f
+0 200 100 100 re f
+0 100 100 100 re f
+400 100 100 100 re f
+100 0 100 100 re f
+200 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+17 0 obj
+<< /Length 303 >>
+stream
+600 0 0 0 500 700 d1
+100 400 100 100 re f
+200 400 100 100 re f
+300 400 100 100 re f
+0 300 100 100 re f
+400 300 100 100 re f
+0 200 100 100 re f
+100 200 100 100 re f
+200 200 100 100 re f
+300 200 100 100 re f
+400 200 100 100 re f
+0 100 100 100 re f
+100 0 100 100 re f
+200 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+18 0 obj
+<< /Length 204 >>
+stream
+600 0 0 0 500 700 d1
+200 600 100 100 re f
+100 400 100 100 re f
+200 400 100 100 re f
+200 300 100 100 re f
+200 200 100 100 re f
+200 100 100 100 re f
+100 0 100 100 re f
+200 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+19 0 obj
+<< /Length 255 >>
+stream
+600 0 0 0 500 700 d1
+0 600 100 100 re f
+0 500 100 100 re f
+0 400 100 100 re f
+300 400 100 100 re f
+0 300 100 100 re f
+200 300 100 100 re f
+0 200 100 100 re f
+100 200 100 100 re f
+0 100 100 100 re f
+200 100 100 100 re f
+0 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+20 0 obj
+<< /Length 225 >>
+stream
+600 0 0 0 500 700 d1
+100 600 100 100 re f
+200 600 100 100 re f
+200 500 100 100 re f
+200 400 100 100 re f
+200 300 100 100 re f
+200 200 100 100 re f
+200 100 100 100 re f
+100 0 100 100 re f
+200 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+21 0 obj
+<< /Length 320 >>
+stream
+600 0 0 0 500 700 d1
+0 400 100 100 re f
+100 400 100 100 re f
+300 400 100 100 re f
+0 300 100 100 re f
+200 300 100 100 re f
+400 300 100 100 re f
+0 200 100 100 re f
+200 200 100 100 re f
+400 200 100 100 re f
+0 100 100 100 re f
+200 100 100 100 re f
+400 100 100 100 re f
+0 0 100 100 re f
+200 0 100 100 re f
+400 0 100 100 re f
+endstream
+endobj
+22 0 obj
+<< /Length 259 >>
+stream
+600 0 0 0 500 700 d1
+0 400 100 100 re f
+200 400 100 100 re f
+300 400 100 100 re f
+0 300 100 100 re f
+100 300 100 100 re f
+400 300 100 100 re f
+0 200 100 100 re f
+400 200 100 100 re f
+0 100 100 100 re f
+400 100 100 100 re f
+0 0 100 100 re f
+400 0 100 100 re f
+endstream
+endobj
+23 0 obj
+<< /Length 261 >>
+stream
+600 0 0 0 500 700 d1
+100 400 100 100 re f
+200 400 100 100 re f
+300 400 100 100 re f
+0 300 100 100 re f
+400 300 100 100 re f
+0 200 100 100 re f
+400 200 100 100 re f
+0 100 100 100 re f
+400 100 100 100 re f
+100 0 100 100 re f
+200 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+24 0 obj
+<< /Length 261 >>
+stream
+600 0 0 0 500 700 d1
+0 400 100 100 re f
+100 400 100 100 re f
+200 400 100 100 re f
+300 400 100 100 re f
+0 300 100 100 re f
+400 300 100 100 re f
+0 200 100 100 re f
+100 200 100 100 re f
+200 200 100 100 re f
+300 200 100 100 re f
+0 100 100 100 re f
+0 0 100 100 re f
+endstream
+endobj
+25 0 obj
+<< /Length 198 >>
+stream
+600 0 0 0 500 700 d1
+0 400 100 100 re f
+200 400 100 100 re f
+300 400 100 100 re f
+0 300 100 100 re f
+100 300 100 100 re f
+400 300 100 100 re f
+0 200 100 100 re f
+0 100 100 100 re f
+0 0 100 100 re f
+endstream
+endobj
+26 0 obj
+<< /Length 282 >>
+stream
+600 0 0 0 500 700 d1
+100 400 100 100 re f
+200 400 100 100 re f
+300 400 100 100 re f
+400 400 100 100 re f
+0 300 100 100 re f
+100 200 100 100 re f
+200 200 100 100 re f
+300 200 100 100 re f
+400 100 100 100 re f
+0 0 100 100 re f
+100 0 100 100 re f
+200 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+27 0 obj
+<< /Length 246 >>
+stream
+600 0 0 0 500 700 d1
+100 600 100 100 re f
+100 500 100 100 re f
+0 400 100 100 re f
+100 400 100 100 re f
+200 400 100 100 re f
+100 300 100 100 re f
+100 200 100 100 re f
+100 100 100 100 re f
+400 100 100 100 re f
+200 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+28 0 obj
+<< /Length 259 >>
+stream
+600 0 0 0 500 700 d1
+0 400 100 100 re f
+400 400 100 100 re f
+0 300 100 100 re f
+400 300 100 100 re f
+0 200 100 100 re f
+400 200 100 100 re f
+0 100 100 100 re f
+300 100 100 100 re f
+400 100 100 100 re f
+100 0 100 100 re f
+200 0 100 100 re f
+400 0 100 100 re f
+endstream
+endobj
+29 0 obj
+<< /Length 261 >>
+stream
+600 0 0 0 500 700 d1
+0 400 100 100 re f
+400 400 100 100 re f
+0 300 100 100 re f
+400 300 100 100 re f
+0 200 100 100 re f
+200 200 100 100 re f
+400 200 100 100 re f
+0 100 100 100 re f
+200 100 100 100 re f
+400 100 100 100 re f
+100 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+30 0 obj
+<< /Length 202 >>
+stream
+600 0 0 0 500 700 d1
+0 400 100 100 re f
+400 400 100 100 re f
+100 300 100 100 re f
+300 300 100 100 re f
+200 200 100 100 re f
+100 100 100 100 re f
+300 100 100 100 re f
+0 0 100 100 re f
+400 0 100 100 re f
+endstream
+endobj
+31 0 obj
+<< /Length 263 >>
+stream
+600 0 0 0 500 700 d1
+0 400 100 100 re f
+400 400 100 100 re f
+0 300 100 100 re f
+400 300 100 100 re f
+100 200 100 100 re f
+200 200 100 100 re f
+300 200 100 100 re f
+400 200 100 100 re f
+400 100 100 100 re f
+100 0 100 100 re f
+200 0 100 100 re f
+300 0 100 100 re f
+endstream
+endobj
+xref
+0 32
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000000389 00000 n 
+0000001886 00000 n 
+0000002061 00000 n 
+0000002631 00000 n 
+0000002701 00000 n 
+0000002790 00000 n 
+0000003119 00000 n 
+0000003547 00000 n 
+0000003897 00000 n 
+0000004268 00000 n 
+0000004567 00000 n 
+0000004923 00000 n 
+0000005193 00000 n 
+0000005547 00000 n 
+0000005802 00000 n 
+0000006108 00000 n 
+0000006384 00000 n 
+0000006755 00000 n 
+0000007065 00000 n 
+0000007377 00000 n 
+0000007689 00000 n 
+0000007938 00000 n 
+0000008271 00000 n 
+0000008568 00000 n 
+0000008878 00000 n 
+0000009190 00000 n 
+0000009443 00000 n 
+trailer
+<< /Size 32 /Root 1 0 R /Info 6 0 R >>
+startxref
+9757
+%%EOF

@@ -1,0 +1,16 @@
+{
+  "alertsFramesWindows": {
+    "heading": "h1",
+    "alertButton": "#alert-button",
+    "confirmButton": "#confirm-button",
+    "promptButton": "#prompt-button",
+    "result": "#result",
+    "frame": "#practice-frame",
+    "frameHeading": "#frame-heading",
+    "frameNameInput": "#frame-name",
+    "frameGreetButton": "#frame-button",
+    "frameOutput": "#frame-output",
+    "newTabLink": "#open-tab",
+    "popupHeading": "#popup-heading"
+  }
+}

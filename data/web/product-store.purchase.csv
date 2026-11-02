@@ -1,0 +1,2 @@
+caseId,loginUsername,productName,productPrice,productImage,productLink,productDescription,orderName,country,city,card,month,year,addedAlert,confirmationMessage,currency,cartPath
+PS-CHECKOUT-002,vietng,Nokia lumia 1520,820,imgs/Lumia_1520.jpg,prod.html?idp_=2,The Nokia Lumia 1520 is powered by 2.2GHz quad-core Qualcomm Snapdragon 800 processor and it comes with 2GB of RAM.,Viet Nguyen Test,Vietnam,Ho Chi Minh City,4111111111111111,12,2030,Product added.,Thank you for your purchase!,USD,/cart.html

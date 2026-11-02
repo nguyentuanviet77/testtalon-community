@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Alerts, frames and windows (local fixture)</title></head>
+<body>
+  <h1>Alerts, frames and windows</h1>
+  <button id="alert-button" type="button">Show alert</button>
+  <button id="confirm-button" type="button">Show confirm</button>
+  <button id="prompt-button" type="button">Show prompt</button>
+  <p id="result" role="status"></p>
+  <iframe id="practice-frame" title="Practice frame" src="/frame"></iframe>
+  <a id="open-tab" href="/popup" target="_blank">Open in a new tab</a>
+  <script>
+    const result = document.querySelector('#result');
+    document.querySelector('#alert-button').addEventListener('click', () => {
+      alert('Hello from the practice page');
+      result.textContent = 'Alert accepted';
+    });
+    document.querySelector('#confirm-button').addEventListener('click', () => {
+      result.textContent = confirm('Do you want to continue?') ? 'You pressed OK' : 'You pressed Cancel';
+    });
+    document.querySelector('#prompt-button').addEventListener('click', () => {
+      const name = prompt('What is your name?', '');
+      result.textContent = name ? 'Hello, ' + name + '!' : 'No name entered';
+    });
+  </script>
+</body>
+</html>

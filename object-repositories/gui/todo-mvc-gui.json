@@ -1,0 +1,6 @@
+{
+  "todoMvc": {
+    "newTodoInput": ".new-todo",
+    "todoItem": ".todo-list li"
+  }
+}

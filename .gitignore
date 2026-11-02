@@ -1,0 +1,39 @@
+node_modules/
+dist/
+logs/
+.cache/
+test-results/
+playwright-report/
+blob-report/
+playwright/.auth/
+# Community profiles (config/project-profiles/.env.*) are committed with the source; only the private key file is ignored.
+.env.keys
+**/.env.keys
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.agent/
+.codex/
+
+# Generated and authentication state, kept from the 2.0.0 repository
+build/
+coverage/
+html-report/
+.playwright-mcp/
+*.tsbuildinfo
+*.log
+/.npmrc
+.auth/
+auth-state/
+cookies.json
+storageState.json
+
+# Local operating-system and editor state
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
